@@ -4,7 +4,7 @@ def get_indices_of_item_weights(weights, length, limit):
     """
     cache = {}
 
-    # checking if value in caché
+    # check if value in caché
     if limit in cache:
         return cache[limit]
 
